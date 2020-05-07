@@ -1,0 +1,100 @@
+.top-header{
+height: 40px;
+padding-top: 10px;
+position: fixed !important;
+top:0px
+}
+.header-logo{
+    height: 37px;
+    margin-left: 100px;
+}
+.site-position{
+    top:35px;
+    position: fixed !important;
+    width: 100% !important;
+}
+/* .site-nav {
+    position: fixed;
+    width: 100%;
+    top: 38px;
+  
+  } */
+.home-text{
+    text-align: left ;
+    font-weight: bolder ;
+    font-size: 76px; 
+    max-width: 746px ;
+    margin: auto;
+    margin-top: 50px;
+}
+.home-page-subtitle{
+    
+    line-height: 24px;
+    color: #000000; 
+   margin: auto;
+    max-width: 453px;
+    text-align: left;
+    margin-left: 184px!important;
+  
+}
+.contact-text{
+    text-align: left ;
+    font-weight: bolder ;
+    font-size: 74px;
+    max-width: 746px ;
+    margin: auto;
+    margin-top: 50px;  
+}
+.get-in-text{
+    color: peru;
+    font-size: 50!important;
+    font-size: medium;
+    margin-left: 178px !important;
+}
+.Thank{
+    margin-top: 158px;
+    margin-left: 169px;
+    font-size: 24px;
+}
+.icon{
+    vertical-align: middle;
+    border-style: none;
+    height: 50px;
+}
+.cup-image{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.text3{
+    margin-top: 94px;
+    font-size: 60px;
+}
+.about-list{
+    margin-left: 150px;
+}
+.bit{
+    margin-left: 162px;
+    height: 105px;
+    margin-top: 81px;
+}
+.text4{
+    margin-top: 94px;
+    font-size: 23px;
+}
+.color1{
+    color: peru;
+}
+.text5{
+    margin-top: 33px;
+    margin-left: -98px;
+}
+.bottom-text{
+    margin-left: -98px;
+    margin-top: 51px;
+}
+.margin-class{
+    padding-top:100px;
+}
+.margin-topclass{
+    padding-top:50px;
+}
