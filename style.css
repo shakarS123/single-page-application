@@ -28,7 +28,7 @@ top:0px
     margin-top: 50px;
 }
 .home-page-subtitle{
-    
+    font-size: 15px;
     line-height: 24px;
     color: #000000; 
    margin: auto;
@@ -52,7 +52,7 @@ top:0px
     margin-left: 178px !important;
 }
 .Thank{
-    margin-top: 158px;
+    margin-top: 224px;
     margin-left: 169px;
     font-size: 24px;
 }
@@ -87,6 +87,7 @@ top:0px
 .text5{
     margin-top: 33px;
     margin-left: -98px;
+    font-size: 15px;
 }
 .bottom-text{
     margin-left: -98px;
@@ -97,4 +98,44 @@ top:0px
 }
 .margin-topclass{
     padding-top:50px;
+    position: relative;
 }
+.main-slider{
+    display:none;
+}
+
+.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 62%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    left: 0px;
+    background-color: black;
+    opacity: 0.7;
+  }
+
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    right: 0px;
+    background-color: black;
+    opacity: 0.7;
+  }

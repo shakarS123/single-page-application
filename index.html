@@ -25,12 +25,12 @@
       </head>
     <body>
         <!-- main header start -->
-        <div class="container-fluid bg-dark text-white text-center top-header">
+        <div class="container-fluid bg-dark text-white text-center top-header " style="z-index: 9999;">
             <div class="header-section">Set up your online shopify store in just 48 hrs <a href="#">contact Us</a></div>
         </div>
         <!-- main header end -->
         <!-- header section start -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light site-position ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light site-position " style="z-index: 9999;">
             <a class="navbar-brand" href="#" >
                 <img src="GYPSYPHI.jpg" class="header-logo" />
             </a>
@@ -51,13 +51,13 @@
                 <li class="nav-item " onclick="scrollto('testimonial')">
                     <a class="nav-link" href="#">TESTIMONIAL</a>
                 </li>
+                <li class="nav-item " onclick="scrollto('about')">
+                    <a class="nav-link" href="#">ABOUT US</a>
+                </li>
                 <li class="nav-item" onclick="scrollto('contact')">
                   <a class="nav-link" href="#">CONTACT US</a>
                 </li>
-                <li class="nav-item " onclick="scrollto('about')">
-                    <a class="nav-link" href="#">ABOUT US</a>
-                  
-                </li>
+               
                
               </ul>
              </form>
@@ -67,12 +67,13 @@
       <!-- Home page start -->
       <div class="container margin-class" id="home">
           <div class="home-text">Essential services more efficiently with your online shopify store.</div>
-          <div class="home-page-subtitle">Set up your online shopify store in just 48hr's with shopify online store setup service.</div>
+          <div class="home-page-subtitle" >Set up your online shopify store in just 48hr's with shopify online store setup service.</div>
       </div>
       <!-- Home page end -->
       <!-- Testimonial start page -->
       <div class="container margin-topclass" id="testimonial">
-        <div class="contact-text3 d-flex" >
+          <div class="main-slider">
+        <div class="contact-text3 d-flex " >
             <img src="download (1).png" class="bit"/>
             <div class="text4">
                 <b>Bite Society</b>
@@ -89,24 +90,52 @@
                      <div>Read full case study <u class="color1">here</u></div> 
                     </div>
                     <div class="bottom-text d-flex">
-                        <b>Our Clients</b>
+                        <h2 style="width: 140px;">Our Clients</h2><hr/>
                         <img src="cont.jpg" style="height: 85px;width: 176px;">
-                        <div><b class="color2" style="color: green;margin-left: 10px;">my acme</b></div>
-                        <img src="suman.jpg" style="margin-top: -440px;margin-left: 14px;"/>
+                        <h2 style="width: 128px; color: green;margin-left: 10px;">my acme</h2><hr/>
+                        <!-- <div><b class="color2" style="color: green;margin-left: 10px;">my acme</b></div> -->
+                        <img src="image.jpg" style="margin-top: -330px;margin-left: 98px;width: 345px;"/>
                     </div>
             </div>
         </div>
+    </div>
+    <div class="main-slider">
+        <div class="contact-text3 d-flex " >
+            <img src="download (1).png" class="bit"/>
+            <div class="text4">
+                <b>Bite Society</b>
+                <div style="font-size: small;">Custom Web Development</div>
+                <div class="text5">
+                <div>Lorem Ipsum is simply dummy text of</div>
+                    <div>the printing and typesetting</div>
+                    <div>industry.Lorem Ipsum has been the</div>    
+                    <div>industry's standard dummy text ever</div>
+                    <div>since the 1500s, when a unknown</div> 
+                    <div>printer took a gulley of type and</div>
+                    <div>scrambled it to make a type specimen</div>   
+                        <div>book.</div>
+                        <div>Read full case study <u class="color1">here</u></div> 
+                    </div>
+                    <div class="bottom-text d-flex">
+                        <h2 style="width: 128px;">Our Clients</h2><hr/>
+                        <img src="download (1).png" style="height: 100px;width: 176px;"/>
+                        <div><img src="footerimg.jpg" style="margin-left: 10px;height: 65px;"></div>
+                        <img src="image2.jpg" style="margin-top: -328px;margin-left: 98px;width: 345px;"/>
+                    </div>
+            </div>
+        </div>
+    </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
       <!-- Testimonial end page -->
-      <!-- Contact us start-->
-      <div class="container margin-class" style="background: #e9ecef;" id="contact">
-        <div class="contact-text"> Interested in working with us?</div>
-        <div class="get-in-text"><U >Get in touch.</U></div>
-        <div class="Thank" > Thank you for visting us
-            <img src="icon.jpg " class="icon" />
-        </div>
+      <!-- Testimonial start page2 -->
+      <div class="container margin-topclass main-slider" id="testimonial">
+     
       </div>
-      <!-- Contact us end -->
+
+      <!-- Testimonial end page2 -->
+      
       <!-- About us start -->
       <div class="container margin-class" id="about">
           <div class="contact-text2 d-flex"> 
@@ -118,15 +147,51 @@
                  
           </div>
           <ul class="about-list">
-            <li>Custom Development </li>
-
-            <li>Full Stack Development</li>
-            <li>Mobile App Development</li>
-            <li>Shopify App Integrations</li>
+            <li>Custom Development </li><br/>
+            <li>Full Stack Development</li><br/>
+            <li>Mobile App Development</li><br/>
+            <li>Shopify App Integrations</li><br/>
             <li>Shopify Plus Scripts</li>
           </ul>
       </div>
       <!-- About us end -->
-      
+      <!-- Contact us start-->
+      <div class="container margin-class"  id="contact">
+        <div class="contact-text"> Interested in working with us?</div>
+        <div class="get-in-text"><U >Get in touch.</U></div>
+        <div class="Thank" > Thank you for visting us
+            <img src="icon.jpg " class="icon" />
+        </div>
+      </div>
+      <!-- Contact us end -->
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("main-slider");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        
     </body>
 </html>
